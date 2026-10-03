@@ -1,0 +1,94 @@
+{
+  "libusb_package_LICENSE.txt": {
+    "sha256": "a6cba85bc92e0cff7a450b1d873c0eaa2e9fc96bf472df0247a26bec77bf3ff9",
+    "source": "https://raw.githubusercontent.com/pyocd/libusb-package/v1.0.30.0/LICENSE"
+  },
+  "libusb_LGPL-2.1.txt": {
+    "sha256": "5df07007198989c622f5d41de8d703e7bef3d0e79d62e24332ee739a452af62a",
+    "source": "https://raw.githubusercontent.com/libusb/libusb/v1.0.30/COPYING"
+  },
+  "libusb_AUTHORS.txt": {
+    "sha256": "27fd82b016838197d5276ba98d2187ed5a1ad0e171767322f356f0a9f6395941",
+    "source": "https://raw.githubusercontent.com/libusb/libusb/v1.0.30/AUTHORS"
+  },
+  "ViGEmClient_LICENSE.txt": {
+    "sha256": "445b3bccd103d39cab7e9b276dd966d60269cf5c44b4b8a118e48bc4c7c4f0db",
+    "source": "https://raw.githubusercontent.com/nefarius/ViGEmClient/master/LICENSE"
+  },
+  "ViGEmBus_LICENSE.txt": {
+    "sha256": "3959f6ca50466675190590dfd024585744b6456ae7d39a3222e6550d62882586",
+    "source": "https://raw.githubusercontent.com/nefarius/ViGEmBus/master/LICENSE"
+  },
+  "OpenSSL_LICENSE.txt": {
+    "sha256": "7d5450cb2d142651b8afa315b5f238efc805dad827d91ba367d8516bc9d49e7a",
+    "source": "https://raw.githubusercontent.com/python/cpython-source-deps/openssl-3.5.9/LICENSE.txt"
+  },
+  "libffi_LICENSE.txt": {
+    "sha256": "2c9c2acb9743e6b007b91350475308aee44691d96aa20eacef8e199988c8c388",
+    "source": "https://raw.githubusercontent.com/python/cpython-source-deps/libffi-3.4.4/LICENSE"
+  },
+  "zlib_LICENSE_README.txt": {
+    "sha256": "d106dcdb2a0b3087cb3a2380b9f00a0bbadc7eb835cd80408f94a2d78d69727d",
+    "source": "https://raw.githubusercontent.com/python/cpython-source-deps/zlib-1.3.1/README"
+  },
+  "bzip2_LICENSE.txt": {
+    "sha256": "c6dbbf828498be844a89eaa3b84adbab3199e342eb5cb2ed2f0d4ba7ec0f38a3",
+    "source": "https://raw.githubusercontent.com/python/cpython-source-deps/bzip2-1.0.8/LICENSE"
+  },
+  "lzma_COPYING.txt": {
+    "sha256": "bcb02973ef6e87ea73d331b3a80df7748407f17efdb784b61b47e0e610d3bb5c",
+    "source": "https://raw.githubusercontent.com/python/cpython-source-deps/xz-5.2.5/COPYING"
+  },
+  "mpdecimal_LICENSE.txt": {
+    "sha256": "2713324211652ce4a60e6e21e54f9dc3004299e591b0933a352f1a89c5fb53c2",
+    "source": "https://raw.githubusercontent.com/python/cpython-source-deps/mpdecimal-4.0.0/COPYRIGHT.txt"
+  },
+  "Tcl_LICENSE.txt": {
+    "sha256": "c0a69a2bfd757361ec7e6143973b103c90409316b49e9c88db26ad6388e79f16",
+    "source": "https://raw.githubusercontent.com/python/cpython-source-deps/tcl-core-8.6.15.0/license.terms"
+  },
+  "Tk_LICENSE.txt": {
+    "sha256": "2cde822b93ca16ae535c954b7dfe658b4ad10df2a193628d1b358f1765e8b198",
+    "source": "https://raw.githubusercontent.com/python/cpython-source-deps/tk-8.6.15.0/license.terms"
+  },
+  "Expat_LICENSE.txt": {
+    "sha256": "31b15de82aa19a845156169a17a5488bf597e561b2c318d159ed583139b25e87",
+    "source": "https://raw.githubusercontent.com/python/cpython/v3.13.16/Modules/expat/COPYING"
+  },
+  "Python_LICENSE.txt": {
+    "sha256": "78b12c3a81360b357002334f0e70ea0e92eebf7a9b358805c03c48484945f3bb",
+    "source": "https://raw.githubusercontent.com/python/cpython/v3.13.16/LICENSE"
+  },
+  "PyUSB_LICENSE.txt": {
+    "sha256": "03e39fdcee9c18f2f9d0c3500a993ddeac050695eb81070ea41347587c76a7fe",
+    "source": "PyUSB 1.3.1 distribution LICENSE"
+  },
+  "vgamepad_LICENSE.txt": {
+    "sha256": "777ec45017bfb1c95fcb259ef0601e8c59ed40d22512443b4019262b226cf635",
+    "source": "vgamepad 0.1.0 distribution LICENSE"
+  },
+  "PyInstaller_COPYING.txt": {
+    "sha256": "0598064c7d2718e38d7914a7d08343b2fa008e3bea9ebba2aa7a6ffa5900dd64",
+    "source": "PyInstaller 6.22.3 distribution COPYING.txt"
+  },
+  "importlib_resources_LICENSE.txt": {
+    "sha256": "e2f7bb0557e7a381499f15baa7c1d776d83d6616599179d71d3109b8e39f7b25",
+    "source": "https://files.pythonhosted.org/packages/8a/db/55a262f3606bebcae07cc14095338471ad7c0bbcaa37707e6f0ee49725b7/importlib_resources-7.1.0-py3-none-any.whl (wheel license file)"
+  },
+  "PyInstaller_hooks_contrib_LICENSE.txt": {
+    "sha256": "91d0baaff00773038e72c0a1fc9d5d2d38706b7a2b9c04f34296608f931b9cd0",
+    "source": "pyinstaller-hooks-contrib 2026.8 distribution LICENSE"
+  },
+  "HACL_LICENSE.txt": {
+    "sha256": "d6a25777df93a19cdfc2514c3c465228a1600b127a6af863b2f59c14f3f5965b",
+    "source": "https://raw.githubusercontent.com/python/cpython/v3.13.16/Modules/_hacl/Hacl_Hash_SHA2.c MIT header; upstream pinned LICENSE Apache-2.0"
+  },
+  "libb2_LICENSE.txt": {
+    "sha256": "6a1ee543e5282cd9061881edf462e6fdab181f328da71fc2c9a6950a80e94d01",
+    "source": "https://raw.githubusercontent.com/BLAKE2/libb2/v0.98.1/COPYING"
+  },
+  "SQLite_PUBLIC_DOMAIN.txt": {
+    "sha256": "4113e8e88e415e13e286fcad8e91ba554588cbb3538c2797eb52973d517b7d11",
+    "source": "https://www.sqlite.org/copyright.html (public-domain summary)"
+  }
+}

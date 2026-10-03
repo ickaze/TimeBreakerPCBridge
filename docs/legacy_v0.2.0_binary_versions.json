@@ -1,0 +1,99 @@
+{
+  "_internal/zlib1.dll": {
+    "FileDescription": "zlib data compression library",
+    "FileVersion": "1.2.13",
+    "InternalName": "zlib1.dll",
+    "LegalCopyright": "(C) 1995-2022 Jean-loup Gailly & Mark Adler",
+    "OriginalFilename": "zlib1.dll",
+    "ProductName": "zlib",
+    "ProductVersion": "1.2.13",
+    "Comments": "For more information visit http://www.zlib.net/"
+  },
+  "_internal/libusb0.dll": {
+    "CompanyName": "http://libusb-win32.sourceforge.net",
+    "FileDescription": "libusb-win32 - DLL",
+    "FileVersion": "1.2.6.0",
+    "InternalName": "libusb0.dll",
+    "LegalCopyright": "2002-2009 S. Meyer; 2010 T. Robinson",
+    "OriginalFilename": "libusb0.dll",
+    "ProductName": "libusb-win32 - DLL",
+    "ProductVersion": "1.2.6.0"
+  },
+  "_internal/libusb-1.0.dll": {
+    "CompanyName": "libusb.info",
+    "FileDescription": "C library for writing portable USB drivers in userspace",
+    "FileVersion": "1.0.30.12037",
+    "InternalName": "libusb",
+    "LegalCopyright": "See individual source files, GNU LGPL v2.1 or later.",
+    "LegalTrademarks": "http://www.gnu.org/licenses/lgpl-2.1.html",
+    "OriginalFilename": "libusb-1.0.dll",
+    "PrivateBuild": "",
+    "ProductName": "libusb-1.0",
+    "ProductVersion": "1.0.30.12037",
+    "SpecialBuild": ""
+  },
+  "_internal/libssl-3.dll": {
+    "CompanyName": "The OpenSSL Project, https://www.openssl.org/",
+    "FileDescription": "OpenSSL library",
+    "FileVersion": "3.0.13",
+    "InternalName": "libssl",
+    "OriginalFilename": "libssl",
+    "ProductName": "The OpenSSL Toolkit",
+    "ProductVersion": "3.0.13",
+    "LegalCopyright": "Copyright 1998-2024 The OpenSSL Authors. All rights reserved."
+  },
+  "_internal/libffi-8.dll": {},
+  "_internal/python312.dll": {
+    "CompanyName": "Python Software Foundation",
+    "FileDescription": "Python Core",
+    "FileVersion": "3.12.4",
+    "InternalName": "Python DLL",
+    "LegalCopyright": "Copyright \u00a9 2001-2023 Python Software Foundation. Copyright \u00a9 2000 BeOpen.com. Copyright \u00a9 1995-2001 CNRI. Copyright \u00a9 1991-1995 SMC.",
+    "OriginalFilename": "python312.dll",
+    "ProductName": "Python",
+    "ProductVersion": "3.12.4"
+  },
+  "_internal/libcrypto-3.dll": {
+    "CompanyName": "The OpenSSL Project, https://www.openssl.org/",
+    "FileDescription": "OpenSSL library",
+    "FileVersion": "3.0.13",
+    "InternalName": "libcrypto",
+    "OriginalFilename": "libcrypto",
+    "ProductName": "The OpenSSL Toolkit",
+    "ProductVersion": "3.0.13",
+    "LegalCopyright": "Copyright 1998-2024 The OpenSSL Authors. All rights reserved."
+  },
+  "_internal/libusb_package/libusb-1.0.dll": {
+    "CompanyName": "libusb.info",
+    "FileDescription": "C library for writing portable USB drivers in userspace",
+    "FileVersion": "1.0.30.12037",
+    "InternalName": "libusb",
+    "LegalCopyright": "See individual source files, GNU LGPL v2.1 or later.",
+    "LegalTrademarks": "http://www.gnu.org/licenses/lgpl-2.1.html",
+    "OriginalFilename": "libusb-1.0.dll",
+    "PrivateBuild": "",
+    "ProductName": "libusb-1.0",
+    "ProductVersion": "1.0.30.12037",
+    "SpecialBuild": ""
+  },
+  "_internal/vgamepad/win/vigem/client/x86/ViGEmClient.dll": {
+    "CompanyName": "Nefarius Software Solutions e.U.",
+    "FileDescription": "Virtual Gamepad Emulation Framework User-Mode Library",
+    "FileVersion": "1.0.0.1",
+    "InternalName": "ViGEmClient.dll",
+    "LegalCopyright": "Copyright (C) 2017-2020 Nefarius Software Solutions e.U.",
+    "OriginalFilename": "ViGEmClient.dll",
+    "ProductName": "Virtual Gamepad Emulation Framework User-Mode Library",
+    "ProductVersion": "1.0.0.1"
+  },
+  "_internal/vgamepad/win/vigem/client/x64/ViGEmClient.dll": {
+    "CompanyName": "Nefarius Software Solutions e.U.",
+    "FileDescription": "Virtual Gamepad Emulation Framework User-Mode Library",
+    "FileVersion": "1.0.0.1",
+    "InternalName": "ViGEmClient.dll",
+    "LegalCopyright": "Copyright (C) 2017-2020 Nefarius Software Solutions e.U.",
+    "OriginalFilename": "ViGEmClient.dll",
+    "ProductName": "Virtual Gamepad Emulation Framework User-Mode Library",
+    "ProductVersion": "1.0.0.1"
+  }
+}

@@ -1,0 +1,3 @@
+SQLite is in the public domain.
+Official copyright information: https://www.sqlite.org/copyright.html
+This notice covers SQLite components if collected from the CPython runtime; it does not assert that _sqlite3 is required by the application.

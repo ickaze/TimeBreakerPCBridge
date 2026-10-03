@@ -1,0 +1,33 @@
+{
+  "version": "0.2.2",
+  "date": "2026-10-03",
+  "environment": "Linux, Python 3.12.14",
+  "source_tests": {
+    "passed": 24,
+    "failed": 0
+  },
+  "license_hash_checks": "passed",
+  "dependency_source_hash_checks": "passed",
+  "vgamepad_vendor_selection": "passed",
+  "source_syntax": "passed",
+  "windows_build": "user logs identified pyi_rth_usb unconditional imports of excluded old backends; removed generic hook; fixed Windows build not yet executed",
+  "exe_smoke": "not executed",
+  "hardware": "not executed",
+  "driver_install_remove": "not executed",
+  "setup_python_detection": "version/architecture guard tested; Windows BAT not executed",
+  "dependency_resolution": {
+    "Windows_x64_Python_3.13_build_and_runtime": "pip download with --require-hashes succeeded (11 packages)",
+    "Windows_x64_Python_3.14_runtime": "pip download with --require-hashes succeeded (3 packages)",
+    "Windows_execution": "not tested"
+  },
+  "smoke_timeout_evidence": "last checkpoint and failure record preservation tested",
+  "bootstrap_failure_evidence": "console capture and nonzero exit code preservation tested",
+  "uninstall_changes": "user log measured 228 device lookups in 101 seconds; replaced per-device PnP property calls with registry driver binding reads and 25-device progress updates; Windows execution/performance not yet tested",
+  "manual_languages": [
+    "ja",
+    "en"
+  ],
+  "publisher_policy": "Valid Authenticode status and exact certificate SimpleName; negative substring/case tests passed; Windows installer launch not executed",
+  "manual_checks": "both language attributes and anchor targets passed; outdated onefile/Python 3.12 statements removed",
+  "auto_diagnostics": "startup default disabled; constructor/reconnect contain no refresh calls"
+}

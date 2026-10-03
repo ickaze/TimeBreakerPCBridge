@@ -1,0 +1,21 @@
+# v0.2.0外部検証への対応（v0.2.1も照合）
+
+1. libusb-packageのMIT表記は誤りでした。実際の1.0.30.0メタデータとライセンス全文でApache-2.0を確認し訂正しました。
+2. ViGEmClientのNefarius製DLLとvgamepadのYann Bouteiller氏のMITを別々に表示します。OpenSSL、libffi、zlib、Expat、bzip2、liblzma、mpdecimal、Tcl/Tk、Python等の全文を追加しました。ViGEmBusのBSD全文も参照用に追加しますが、MSIは新ビルドへ入れません。Microsoft再頒布ランタイムについて明記しました。setuptoolsと内蔵ライブラリーはbuild-onlyとし、実行版への混入を監査します。
+3. 旧libusb0.dllはPEメタデータから1.2.6.0と確認しました。新ビルドへは含めません。libusb-1.0.dllは1.0.30.12037と確認し、固定タグの完全な対応ソースとパッケージ側のビルド定義をReleaseへ添付する構成にしました。
+4. 旧EXEのPythonは3.12.4、OpenSSLは3.0.13でした。旧実行版については元のビルド環境と生成手順を裏付ける記録がないため、再現性を検証できません。新方式はそのEXEやランタイムを使わず、公式Python 3.13.16・固定上流依存・公開specからWindowsでビルドします。GitHub Actionsも同梱します。旧再構成手法で生成したEXEを新しい実行版として配布しません。
+5. LICENSE.txtと自作Python/specファイルの著作権者をI.C.KaZe、ライセンスを標準0BSDに統一しました。第三者の著作権表示は置き換えません。
+
+追加対応：非公式・各社と無関係、ドライバー操作・自己責任・無保証、未署名EXEと誤検知の可能性をREADMEへ記載しました。ソース公開用ZIPにはアプリEXEやネイティブDLLを含めず、実行版はWindowsでの検査成功後にReleases向けZIPとして生成します。
+
+検証で新たに見つかった点：vgamepad 0.1.0のsetup.pyはWindowsビルド時に旧MSIを起動する可能性があります。環境変数に期待してpip導入する方法は採用せず、ハッシュ確認したsdistの必要な部分だけ取り出す方式にしました。旧MSIは実行版にもソース公開ZIPにも同梱しません。
+
+正式Windowsビルドと実機検証は、このソース更新時点では未実行です。CI定義の同梱を、実行済み検証と混同しないようにしています。法的な完全性を保証する文書ではなく、同梱物・対応ソース・検査内容の技術的な記録です。
+
+セットアップ検証でlibusb-packageが要求するimportlib_resourcesのlock漏れを修正しました。importlib_resources 7.1.0をハッシュ付きで固定し、独立した実行時依存としてApache-2.0全文と監査の許可対象へ追加しました。setuptools由来の不要な内蔵ライブラリーとは区別します。
+
+Windows起動ログで、汎用pyi_rth_usbが除外済みのlibusb0をimportしていることを確認しました。必要なバックエンドを増やすのではなく、汎用runtime hookをEXEから除き、明示的なlibusb-packageの探索へ統一しました。hooks-contribのライセンス全文も追加しました。
+
+削除時のプロパティData欠落による例外を修正しました。Get-PnpDevicePropertyの返却オブジェクトでDataが存在するかを確認してから値を取り出し、欠落はnullとして既存の確認処理へ渡します。共有確認に必要な情報が取得できない場合の停止は維持し、失敗ログにPowerShellのスタックも記録します。
+
+公開文書の旧ランタイム再構成の説明と会話依存の表現を整理しました。日英マニュアルを同梱し、導入状況の自動表示・自動診断を廃止しました。署名発行者は証明書のSimpleNameを正式名と完全一致で検証し、HACL*・libb2全文とSQLiteのパブリックドメイン表示を追加しました。INTECGAMINGは公式製品サイトのブランド表記として説明しています。

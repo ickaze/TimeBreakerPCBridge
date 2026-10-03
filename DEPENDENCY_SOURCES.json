@@ -1,0 +1,20 @@
+[
+  {
+    "component": "libusb",
+    "filename": "libusb-1.0.30-source.tar.gz",
+    "url": "https://github.com/libusb/libusb/archive/refs/tags/v1.0.30.tar.gz",
+    "sha256": "2ae28adb0bb9558c86135c4e1c11b320b0805461e207a64a6e520a114094bf07"
+  },
+  {
+    "component": "libusb-package",
+    "filename": "libusb-package-1.0.30.0-source.tar.gz",
+    "url": "https://github.com/pyocd/libusb-package/archive/refs/tags/v1.0.30.0.tar.gz",
+    "sha256": "9f1db61faeff213cdac1d27ff8ef4318ead5ffd36075f7e363a5b67b7c7a99e2"
+  },
+  {
+    "component": "vgamepad",
+    "filename": "vgamepad-0.1.0-source.tar.gz",
+    "url": "https://files.pythonhosted.org/packages/8a/54/0eaddc33f84247963af078f364b37153d09fcd6cdc398f243ec3e8842c56/vgamepad-0.1.0.tar.gz",
+    "sha256": "57f6bd01aec0c172947517fb782d150ef9b285f7f4d524c317374fa5c24a89de"
+  }
+]

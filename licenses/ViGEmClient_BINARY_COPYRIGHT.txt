@@ -1,0 +1,6 @@
+ViGEmClient.dll (x64), file version 1.0.0.1, as supplied in vgamepad 0.1.0:
+Copyright (C) 2017-2020 Nefarius Software Solutions e.U.
+
+Upstream ViGEmClient MIT license additionally states:
+Copyright (c) 2018 Benjamin Höglinger-Stelzer
+See ViGEmClient_LICENSE.txt for the complete permission conditions and disclaimer.
